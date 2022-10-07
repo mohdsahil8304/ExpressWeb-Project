@@ -1,0 +1,55 @@
+<html lang="en">
+    
+  <head>
+   {{>headerlinks}}
+  </head>
+  <body>
+    <!-- <h1>Welocome to thapa technical static page</h1>
+    <button class="btn btn-denger">Hello</button> -->
+   {{>navbar}}
+    <!-- Main Header -->
+    <div class="container-fluid main_header">
+      <div class="row">
+        <div class="col-md-10 col-12 mx-auto">
+          <div class="main_content">
+              <from class="temp_form">
+                  <input type="text"  id ="cityName" placeholder="Enter your city name" autocomplete="off"/>
+                  <input type="submit" value="search" id="submitBtn">
+              </from>
+          </div>
+          <div class="tempInformation">
+              <div class ="top_layer">
+                  <p id="day">Tuesday</p>
+                  <p id="today_data">5 OCT</p>
+              </div>
+              <div class="main_layer">
+                  <p id="city_name">Get Output Here</p>
+                  <div class="middle_layer data_hide">
+                      <p><span id="temp_deg">0</span><sup>o</sup>C</p>
+                      <p id="temp_status"><i class="fa fa-cloud" aria-hidden="true"></i></p>
+                  </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer section -->
+     {{>footer}}
+     <script src="js/script.js"></script>
+  </body>
+</html>
+<!-- <figure>
+  <img
+    src="images/ancor-img.png"
+    alt="ancor"
+    class="img-fluid w-100"
+    title="trignoweb"
+  />
+</figure> -->
+<!-- <p>Welcome to weather app</p>
+<h1>
+  I am A <span>Fresher Developer</span>And Graduated To B.C.A
+</h1>
+<a href="https://trignoweb.com/" target="_sahil"
+  ><button>About me</button></a
+> -->

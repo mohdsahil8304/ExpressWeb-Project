@@ -1,0 +1,16 @@
+{
+  "name": "expressweb",
+  "version": "1.0.0",
+  "description": "Creating a Express Website",
+  "main": "script.js",
+  "scripts": {
+    "dev": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mohd Sahil",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "hbs": "^4.2.0"
+  }
+}
