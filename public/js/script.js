@@ -63,7 +63,7 @@ const getInfo = async () => {
       }
       hideData.classList.remove("data_hide");
       city_name.innerText = `${realData.name},${realData.sys.country}`;
-      temp_deg.innerText = `${(realData.main.temp - 273.15).toFixed(2)}`;
+      temp_deg.innerText = `${(realData.main.temp - 273.15).toFixed(0)}`;
     } catch {
       city_name.innerText = `Plz, enter the city name properly`;
       hideData.classList.add("data_hide");
